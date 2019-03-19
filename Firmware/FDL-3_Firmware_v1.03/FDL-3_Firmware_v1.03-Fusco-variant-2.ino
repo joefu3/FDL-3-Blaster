@@ -869,9 +869,7 @@ void renderScreen(bool useAlarm){
 
 void presetButtonAction(int presButton){
   if(btnmodeMenuIndex == 0){//preset
-    if(!speedLocked){
-      loadPreset(presButton);
-    }
+    loadPreset(presButton);
   }
   if(btnmodeMenuIndex == 1){//speed
     if(!speedLocked){
