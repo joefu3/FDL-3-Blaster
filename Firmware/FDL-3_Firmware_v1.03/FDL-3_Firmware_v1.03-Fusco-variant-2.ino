@@ -251,6 +251,29 @@ void imperialMarchBeeps(){
   delay(100);
 }
   
+void anchorsAweighBeeps() {
+  tone(6, 131, 900);
+  delay(100);
+  tone(6, 165, 400);
+  delay(100);
+  tone(6, 196, 400);
+  delay(100);
+  tone(6, 220, 650);
+  delay(100);
+  tone(6, 165, 150);
+  delay(100);
+  tone(6, 220, 900);
+  delay(100);
+  tone(6, 262, 900);
+  delay(100);
+  tone(6, 294, 400);
+  delay(100);
+  tone(6, 196, 400);
+  delay(100);
+  tone(6, 262, 1900);
+  delay(100);
+}
+
 
 
 void loop() {
