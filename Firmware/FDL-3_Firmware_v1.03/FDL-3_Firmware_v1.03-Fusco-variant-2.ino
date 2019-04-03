@@ -190,7 +190,7 @@ void setup() {
   
   renderScreen(true);
   //delay(50);
-  imperialMarchBeeps();
+  anchorsAweighBeeps();
 
 
   if(lockOn()){
